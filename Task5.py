@@ -71,4 +71,4 @@ frames = frame_signal(
 
 print(f"Number of frames: {frames.shape[0]}")
 print(f"Frame size (samples): {frames.shape[1]}")
-print("First frame:\n", frames[0])
+print("First frame:\n", frames[0:5])
